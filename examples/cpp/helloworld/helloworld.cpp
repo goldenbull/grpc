@@ -5,7 +5,7 @@
 #include <string>
 
 #include <grpc++/grpc++.h>
-
+#include <grpc/support/log_win32.h>
 #include "helloworld.grpc.pb.h"
 
 using grpc::Server;
@@ -47,7 +47,7 @@ void RunServer() {
 }
 
 int main(int argc, char** argv) {
-    RunServer();
-
+    //RunServer();
+    gpr_log(GPR_INFO, "test msg: %s", gpr_format_message(1234));
     return 0;
 }
