@@ -47,7 +47,7 @@ void RunServer() {
 }
 
 int main(int argc, char** argv) {
-    //RunServer();
-    gpr_log(GPR_INFO, "test msg: %s", gpr_format_message(1234));
+    RunServer();
+    //gpr_log(GPR_INFO, "test msg: %s", gpr_format_message(1234));
     return 0;
 }
