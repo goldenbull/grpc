@@ -7,6 +7,7 @@
 pushd third_party\protobuf\cmake
 cmake -G "Visual Studio 14 2015" -Dprotobuf_BUILD_TESTS=OFF . || goto :error
 @rem for x64: cmake -G "Visual Studio 14 2015" -A "x64" -Dprotobuf_BUILD_TESTS=OFF . || goto :error
+msbuild protobuf.sln /p:Configuration=Debug /m || goto :error
 msbuild protobuf.sln /p:Configuration=Release /m || goto :error
 popd
 
