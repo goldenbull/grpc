@@ -52,8 +52,8 @@ pushd vsprojects
 msbuild grpc-test.sln /t:helloworld /p:Configuration=Debug;Platform=Win32 /m || goto :error
 msbuild grpc-test.sln /t:helloworld /p:Configuration=Release;Platform=Win32 /m || goto :error
 @title build grpc lib x64
-msbuild grpc-test.sln /t:helloworld /p:Configuration=Debug;Platform=x64 /m || goto :error
-msbuild grpc-test.sln /t:helloworld /p:Configuration=Release;Platform=x64 /m || goto :error
+rem msbuild grpc-test.sln /t:helloworld /p:Configuration=Debug;Platform=x64 /m || goto :error
+rem msbuild grpc-test.sln /t:helloworld /p:Configuration=Release;Platform=x64 /m || goto :error
 popd
 
 @echo *************** Success! ***************

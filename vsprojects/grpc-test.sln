@@ -151,7 +151,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grpc_verify_jwt", "vcxproj\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helloworld", "..\examples\cpp\helloworld\helloworld.vcxproj", "{862D97D3-EE3D-40BC-9601-C105B94AE925}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotobuf", "..\third_party\protobuf\cmake\libprotobuf.vcxproj", "{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libprotobuf", "..\third_party\protobuf\cmake\libprotobuf.vcxproj", "{3FDC3F2D-7D37-3095-A935-133F78F35DDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -577,26 +577,26 @@ Global
 		{862D97D3-EE3D-40BC-9601-C105B94AE925}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{862D97D3-EE3D-40BC-9601-C105B94AE925}.RelWithDebInfo|x64.ActiveCfg = Release|x64
 		{862D97D3-EE3D-40BC-9601-C105B94AE925}.RelWithDebInfo|x64.Build.0 = Release|x64
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Debug|Win32.Build.0 = Debug|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Debug|x64.ActiveCfg = Debug|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Debug-DLL|Win32.ActiveCfg = Debug|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Debug-DLL|Win32.Build.0 = Debug|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Debug-DLL|x64.ActiveCfg = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Debug-DLL|x64.Build.0 = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.MinSizeRel|x64.ActiveCfg = MinSizeRel|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Release|Win32.ActiveCfg = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Release|Win32.Build.0 = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Release|x64.ActiveCfg = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Release-DLL|Win32.ActiveCfg = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Release-DLL|Win32.Build.0 = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Release-DLL|x64.ActiveCfg = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.Release-DLL|x64.Build.0 = Release|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
-		{D6507F0E-1F46-4A27-AD2F-FED17C9D1536}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Debug|Win32.Build.0 = Debug|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Debug|x64.ActiveCfg = Debug|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Debug-DLL|Win32.ActiveCfg = Debug|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Debug-DLL|Win32.Build.0 = Debug|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Debug-DLL|x64.ActiveCfg = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Debug-DLL|x64.Build.0 = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.MinSizeRel|x64.ActiveCfg = MinSizeRel|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Release|Win32.ActiveCfg = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Release|Win32.Build.0 = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Release|x64.ActiveCfg = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Release-DLL|Win32.ActiveCfg = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Release-DLL|Win32.Build.0 = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Release-DLL|x64.ActiveCfg = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.Release-DLL|x64.Build.0 = Release|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{3FDC3F2D-7D37-3095-A935-133F78F35DDF}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
